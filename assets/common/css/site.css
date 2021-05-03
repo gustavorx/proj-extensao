@@ -35,6 +35,17 @@ h3 {
   text-transform: uppercase;
 }
 
+.h3-alt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -56,6 +67,10 @@ h6 {
   margin-bottom: 10px;
   font-size: 12px;
   line-height: 18px;
+  font-weight: bold;
+}
+
+.bd{
   font-weight: bold;
 }
 
@@ -94,6 +109,14 @@ li {
 img {
   display: inline-block;
   max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.img-topic {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 200px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -1817,5 +1840,16 @@ figcaption {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+  .post-it{
+    background-color: beige; 
+    border-radius: 2%; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .post-it_list{
+    list-style: none;
+    background-color: beige; 
+    border-radius: 2%; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 }
