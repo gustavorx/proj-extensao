@@ -93,6 +93,7 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  text-align: justify;
 }
 
 ul {
@@ -193,7 +194,7 @@ figcaption {
   display: flex;
   height: 90px;
   padding-right: 30px;
-  padding-left: 30px;
+  padding-left: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
