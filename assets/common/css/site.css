@@ -25,7 +25,7 @@ h2 {
 }
 
 .h2-category {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-family: 'Tenor Sans', sans-serif;
   color: #000;
@@ -255,7 +255,7 @@ figcaption {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -1052,7 +1052,7 @@ figcaption {
 }
 
 .h1 {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
   font-family: 'Tenor Sans', sans-serif;
   color: #000;
@@ -1227,7 +1227,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 180px 30px 90px;
+  padding: 180px 30px 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1542,6 +1542,10 @@ figcaption {
     font-size: 36px;
     line-height: 42px;
   }
+  .h2-category {
+    font-size: 36px;
+    line-height: 42px;
+  }
   .text-container {
     width: 100%;
   }
@@ -1696,6 +1700,10 @@ figcaption {
     font-size: 30px;
     line-height: 36px;
   }
+  .h2-category {
+    font-size: 30px;
+    line-height: 36px;
+  }
   .team-collection-item {
     width: 50%;
   }
@@ -1735,8 +1743,7 @@ figcaption {
     flex-wrap: wrap;
   }
   .footer-title-text {
-    width: 100%;
-    margin-top: 20px;
+    margin-bottom: 15px;
   }
   .footer-links {
     margin-top: 0px;
@@ -1807,6 +1814,10 @@ figcaption {
     padding-bottom: 60px;
   }
   .h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .h2-category {
     font-size: 20px;
     line-height: 24px;
   }
