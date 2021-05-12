@@ -5,6 +5,11 @@ body {
   line-height: 20px;
 }
 
+.youtube{
+  width: 560px;
+  height: 315px;
+}
+
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -1604,6 +1609,11 @@ figcaption {
 
 @media (max-width: 767px) {
 
+  .youtube{
+    width: 335px;
+    height: 315px;
+  }
+
   #menu{
     display: none;
   }
@@ -1749,6 +1759,11 @@ figcaption {
 }
 
 @media (max-width: 479px) {
+
+  .youtube{
+    width: 284px;
+    height: 315px;
+  }
 
   #menu{
     display: none;
