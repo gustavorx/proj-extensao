@@ -2006,3 +2006,9 @@ figcaption {
 .magenta {
     color: rgb(214, 48, 48);
 }
+
+.linkedin {
+    color: dodgerblue;
+    font-weight: bold;
+    font-family: monospace;
+}
