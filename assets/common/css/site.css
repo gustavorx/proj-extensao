@@ -1952,21 +1952,21 @@ figcaption {
     font-weight: bold;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-.image-rightside{
+.image-rightside {
     max-width: none !important;
     width: 341px;
     height: 330px;
 }
 
-.text-leftside{
+.text-leftside {
     margin-right: 50px;
 }
 
-.url-link{
+.url-link {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 18px;
@@ -1975,9 +1975,20 @@ figcaption {
     text-align: justify;
 }
 
-.relato{
-    font-style: italic;   
+.relato {
+    font-style: italic;
     text-transform: lowercase;
     text-align: right;
     color: rgb(116, 114, 114);
+}
+
+.institutos {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.image-rightside2 {
+    max-width: none;
+    width: 341px;
+    height: 330px;
 }
