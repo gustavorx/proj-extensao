@@ -1955,3 +1955,33 @@ figcaption {
     font-size: 200%;
     color: purple;
 }
+
+.display-flex{
+    display: flex;
+}
+
+.image-rightside{
+    max-width: none !important;
+    width: 341px;
+    height: 330px;
+}
+
+.text-leftside{
+    margin-right: 50px;
+}
+
+.url-link{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.relato{
+    font-style: italic;   
+    text-transform: lowercase;
+    text-align: right;
+    color: rgb(116, 114, 114);
+}
