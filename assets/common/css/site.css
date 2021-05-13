@@ -1992,3 +1992,17 @@ figcaption {
     width: 341px;
     height: 330px;
 }
+
+.cyan-p {
+    color: rgb(1, 149, 175);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tab-div {
+    margin-left: 14px;
+}
+
+.magenta {
+    color: rgb(214, 48, 48);
+}
