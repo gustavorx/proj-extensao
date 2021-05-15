@@ -6,9 +6,9 @@ body {
 }
 
 .youtube{
-  width: 560px;
-  height: 315px;
-}
+    width: 560px;
+    height: 315px;
+  }
 
 h1 {
     margin-top: 20px;
@@ -1443,14 +1443,7 @@ figcaption {
     flex: 0 0 auto;
 }
 
-@media (max-width: 767px) {
-
-  .youtube{
-    width: 335px;
-    height: 315px;
-  }
-
-  #menu{
+#menu-dropdown {
     display: none;
 }
 
@@ -1612,6 +1605,11 @@ figcaption {
 }
 
 @media (max-width: 767px) {
+    .youtube{
+        width: 335px;
+        height: 315px;
+    }
+
     #menu {
         display: none;
     }
@@ -1754,168 +1752,166 @@ figcaption {
 }
 
 @media (max-width: 479px) {
+    .youtube{
+        width: 284px;
+        height: 315px;
+    }
 
-  .youtube{
-    width: 284px;
-    height: 315px;
-  }
-
-  #menu{
-    display: none;
-  }
-
-  #menu-dropdown{
-    display: block;
-  }
-
-  .nav-link.white {
-    margin-right: 0px;
-  }
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .top-section {
-    max-width: none;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .footer-title-text {
-    margin-bottom: 15px;
-  }
-  .footer-links {
-    margin-top: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .footer-links-container {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-  }
-  .top-post {
-    padding-top: 105px;
-    padding-bottom: 30px;
-  }
-  .header {
-    height: 75vw;
-  }
-  .team {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .contact {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .footer-small-text {
-    margin-top: 20px;
-    line-height: 18px;
-  }
-  .h2.cc-title-section.cc-push-text {
-    margin-bottom: 0px;
-  }
-  ._3-posts {
-    padding-bottom: 60px;
-  }
-  .latest-posts {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .button {
-    width: 100%;
-    margin-top: 60px;
-  }
-  .featured-posts {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .about-top {
-    padding-top: 150px;
-    padding-bottom: 60px;
-  }
-  .h1 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .h2-category {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .team-collection-item {
-    width: 100%;
-  }
-  .contact-item-wrapper {
-    width: 100%;
-  }
-  .about-blog {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .title-section {
-    padding-top: 135px;
-  }
-  .title-section.cc-detail {
-    padding-top: 120px;
-  }
-  .div-block {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-  }
-  .footer-links-inner {
-    margin-top: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .post-it{
-    background-color: beige; 
-    border-radius: 2%; 
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  }
-  .post-it_list{
-    list-style: none;
-    background-color: beige; 
-    border-radius: 2%; 
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+    #menu {
+        display: none;
+    }
+    #menu-dropdown {
+        display: block;
+    }
+    .nav-link.white {
+        margin-right: 0px;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .top-section {
+        max-width: none;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .footer-title-text {
+        margin-bottom: 15px;
+    }
+    .footer-links {
+        margin-top: 0px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .footer-links-container {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+    }
+    .top-post {
+        padding-top: 105px;
+        padding-bottom: 30px;
+    }
+    .header {
+        height: 75vw;
+    }
+    .team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .footer-small-text {
+        margin-top: 20px;
+        line-height: 18px;
+    }
+    .h2.cc-title-section.cc-push-text {
+        margin-bottom: 0px;
+    }
+    ._3-posts {
+        padding-bottom: 60px;
+    }
+    .latest-posts {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .button {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .featured-posts {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .about-top {
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+    .h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .h2-category {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .team-collection-item {
+        width: 100%;
+    }
+    .contact-item-wrapper {
+        width: 100%;
+    }
+    .about-blog {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .title-section {
+        padding-top: 135px;
+    }
+    .title-section.cc-detail {
+        padding-top: 120px;
+    }
+    .div-block {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .footer-links-inner {
+        margin-top: 0px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .post-it {
+        background-color: beige;
+        border-radius: 2%;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .post-it_list {
+        list-style: none;
+        background-color: beige;
+        border-radius: 2%;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
 }
-.ytb{
-  font-size: 19px;
-  font-weight: bold;
-  color: firebrick;
+
+.ytb {
+    font-size: 19px;
+    font-weight: bold;
+    color: firebrick;
 }
 
 .dropbtn {
@@ -2024,10 +2020,4 @@ figcaption {
 
 .magenta {
     color: rgb(214, 48, 48);
-}
-
-.linkedin {
-    color: dodgerblue;
-    font-weight: bold;
-    font-family: monospace;
 }
