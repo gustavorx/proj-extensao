@@ -317,6 +317,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: #141414;
+    margin-top: 10px;
 }
 
 .top-section {
@@ -513,7 +514,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 150px 30px 60px;
+    padding: 150px 30px 30px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -942,6 +943,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .latest-posts {
@@ -949,7 +951,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 90px 30px;
+    padding: 40px 30px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
