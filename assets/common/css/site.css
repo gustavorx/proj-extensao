@@ -752,10 +752,6 @@ figcaption {
     text-transform: uppercase;
 }
 
-.category-link:hover {
-    text-decoration: underline;
-}
-
 .h2 {
     margin-top: 15px;
     margin-bottom: 25px;
