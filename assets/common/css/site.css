@@ -1659,6 +1659,11 @@ figcaption {
         height: 413px !important;
     }
 
+    .image-mobile-alt {
+        display: block;
+        width: 100% !important;
+    }
+
     #menu-dropdown {
         display: block;
     }
@@ -1824,6 +1829,11 @@ figcaption {
         display: block;
         width: 100% !important;
         height: 413px !important;
+    }
+
+    .image-mobile-alt {
+        display: block;
+        width: 100% !important;
     }
 
     #menu-dropdown {
