@@ -1585,7 +1585,7 @@ figcaption {
     .image-logo {
         position: relative;
         padding-top: 12px;
-        z-index: 9999;
+        z-index: 0;
     }
     .container {
         -webkit-box-orient: vertical;
